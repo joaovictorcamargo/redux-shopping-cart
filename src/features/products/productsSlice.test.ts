@@ -6,6 +6,7 @@ describe("products reducer", () => {
     const initialState = undefined;
     const action = { type: "" };
     const result = productsReducer(initialState, action);
+    //empty
     expect(result).toEqual({ products: {} });
   });
   it("should convert the products received to an object", () => {
